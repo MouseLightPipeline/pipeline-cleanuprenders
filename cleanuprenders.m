@@ -5,7 +5,7 @@ function cleanuprenders(inputfolder,outputfolder)
 % outputfolder = '/nrs/mouselight/SAMPLES/2014-06-24-rerender-2level'
 % cleanuprenders(inputfolder,outputfolder)
 if nargin==0
-    sample='2018-04-03-raw';
+    sample='2018-04-13-raw';
     cleanuprenders(sprintf('/nrs/mouselight/SAMPLES/%s',sample),sprintf('/nrs/mouselight/SAMPLES/%s-backup',sample))
     return
 end
